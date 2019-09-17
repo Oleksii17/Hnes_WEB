@@ -1,0 +1,16 @@
+git clone https://github.com/Oleksii17/Hnes-WEB.git
+переходимо в директорію Hnes-WEB
+
+type numPIB.txt переглянув вміст файлу
+
+git add . добавили файли для відстеження 
+
+git commit -m "first" створили перший комміт
+
+type numPIB.txt переглянув вміст файлу
+
+git commit -m "second" створили другий комміт
+
+git status визчили стан файлів
+
+git push відправили на глобальний репозиторій
