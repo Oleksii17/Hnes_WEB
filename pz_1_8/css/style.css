@@ -1,0 +1,111 @@
+body{
+    background-color: lightgrey;
+}
+
+.infBook, .infAutor, .infFilm{
+    border-bottom: 3px solid blue;
+    height: 280px;
+}
+
+.infFilm span, .infBook span{
+    font-weight: bold;
+}
+
+.briefDescription{
+    border-bottom: 3px solid blue;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p{
+    text-indent: 10px;
+    margin-left: 20px;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+
+.normal{
+    font-weight: normal;
+}
+
+.myFvBook{
+    text-align: right ;
+    text-decoration: underline;
+    line-height: 5px;
+}
+
+.PIB{
+    text-align: right ;
+    font-style: italic;
+}
+
+.rightText{
+    text-align: right;
+}
+
+.img {
+    width: 155px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.imgFilm{
+    width: 320px;
+    height: 240px;
+}
+
+.zmist{
+    line-height: 5px;
+}
+
+.center{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.nav{
+    justify-content: center;
+    list-style-type: none ;
+    padding-left: 0;
+}
+
+.nav li{
+    padding: 5px 15px;
+}
+
+.filmPhoto{
+    margin: 30px auto 0 auto;
+    width: 700px;
+    height: 540px;
+}
+
+.photoline{
+    height: 50%;
+    display: flex;
+}
+
+.photo{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer{
+    border-top: 3px solid blue;
+}
